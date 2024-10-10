@@ -10,7 +10,6 @@ Esta é uma solução para o [desafio do cartão de pré-visualização de blog 
 - [Meu processo](#meu-processo)
   - [Construído com](#construído-com)
   - [O que eu aprendi](#o-que-eu-aprendi)
-- [Autor](#autor)
 
 **Nota: Exclua esta nota e atualize a tabela de conteúdos com base nas seções que você manter.**
 
