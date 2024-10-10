@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -11,30 +11,52 @@
       sizes="32x32"
       href="./assets/images/favicon-32x32.png"
     />
-
+    <link rel="stylesheet" href="style.css" />
     <title>Frontend Mentor | Blog preview card</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     <style>
       .attribution {
-        font-size: 11px;
+        font-size: 12px;
         text-align: center;
       }
       .attribution a {
-        color: hsl(228, 45%, 44%);
+        color: #fff;
       }
     </style>
   </head>
   <body>
-    Learning Published 21 Dec 2023 HTML & CSS foundations These languages are
-    the backbone of every website, defining structure, content, and
-    presentation. Greg Hooper
-
+    <section id="card-preview">
+      <div class="card-image">
+        <img
+          src="assets/images/illustration-article.svg"
+          alt="illustration-article"
+        />
+      </div>
+      <div class="card-texts">
+        <span class="card-progress">Learning</span>
+        <time class="card-date" datetime="2023-12-21"
+          >Published 21 Dec 2023</time
+        >
+        <h2 class="card-title">HTML & CSS foundations</h2>
+        <p class="card-desc">
+          These languages are the backbone of every website, defining structure,
+          content, and presentation.
+        </p>
+      </div>
+      <div class="card-author">
+        <img
+          class="card-avatar"
+          src="assets/images/image-avatar.webp"
+          alt="Avatar do Pedro Barbosa"
+        />
+        <span class="avatar-name">Pedro Barbosa</span>
+      </div>
+    </section>
     <div class="attribution">
-      Challenge by
+      <span>Challenge by</span>
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
-      >. Coded by <a href="#">Pedro Barbosa</a>.
+      >. Coded by
+      <a href="https://github.com/phdiias" target="_blank">Pedro Barbosa</a>.
     </div>
   </body>
 </html>
