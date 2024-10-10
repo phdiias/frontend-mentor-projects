@@ -25,7 +25,7 @@ Os usuários devem ser capazes de:
 
 ### Captura de tela
 
-![](./preview.jpg)
+![](./preview.jpeg)
 
 ### Links
 
