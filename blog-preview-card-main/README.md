@@ -7,7 +7,6 @@ Esta é uma solução para o [desafio do cartão de pré-visualização de blog 
 - [Visão Geral](#visão-geral)
   - [O desafio](#o-desafio)
   - [Captura de tela](#captura-de-tela)
-  - [Links](#links)
 - [Meu processo](#meu-processo)
   - [Construído com](#construído-com)
   - [O que eu aprendi](#o-que-eu-aprendi)
@@ -26,10 +25,6 @@ Os usuários devem ser capazes de:
 ### Captura de tela
 
 ![](./preview.jpeg)
-
-### Links
-
-- URL do site ao vivo: [Adicione a URL do site ao vivo aqui](https://your-live-site-url.com)
 
 ## Meu processo
 
