@@ -50,6 +50,9 @@ body {
   padding: 20px;
   border-bottom-left-radius: 16px;
   border-bottom-right-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .details-texts {
@@ -68,7 +71,7 @@ body {
 }
 
 .details-texts .card-title {
-  font-size: 34px;
+  font-size: 32px;
   font-family: 'Fraunces', sans-serif;
   font-weight: 700;
   color: hsl(212, 21%, 14%);
@@ -94,7 +97,7 @@ body {
 }
 
 .details-values .card-btn {
-  padding: 18px;
+  padding: 16px;
   font-size: 16px;
   font-family: 'Montserrat', sans-serif;
   color: white;
@@ -116,14 +119,14 @@ body {
 }
 
 .card-prices .card-price-descount {
-  font-size: 35px;
+  font-size: 32px;
   font-family: 'Fraunces', sans-serif;
   font-weight: 600;
   color: rgb(64, 129, 105);
 }
 
 .card-prices .card-price-total {
-  font-size: 18px;
+  font-size: 16px;
   color: hsl(228, 12%, 50%);
   text-decoration: line-through;
 }
@@ -153,5 +156,9 @@ body {
 
   .card-details {
     border-top-right-radius: 16px;
+  }
+
+  .details-texts .card-title {
+    width: 90%;
   }
 }
